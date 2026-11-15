@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Contracts/Contracts.csproj" />
+  </Folder>
+  <Folder Name="/src/OrderService/">
+    <Project Path="src/OrderService/OrderService.Api/OrderService.Api.csproj" />
+    <Project Path="src/OrderService/OrderService.Application/OrderService.Application.csproj" />
+    <Project Path="src/OrderService/OrderService.Domain/OrderService.Domain.csproj" />
+    <Project Path="src/OrderService/OrderService.Infrastructure/OrderService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/StockService/">
+    <Project Path="src/StockService/StockService.Api/StockService.Api.csproj" />
+    <Project Path="src/StockService/StockService.Application/StockService.Application.csproj" />
+    <Project Path="src/StockService/StockService.Domain/StockService.Domain.csproj" />
+    <Project Path="src/StockService/StockService.Infrastructure/StockService.Infrastructure.csproj" />
+  </Folder>
+</Solution>
